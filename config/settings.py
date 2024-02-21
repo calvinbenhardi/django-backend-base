@@ -77,3 +77,6 @@ STATICFILES_DIRS = [
 ]
 
 AUTH_USER_MODEL = "src.User"
+PASSWORD_HASHERS = [
+    "django.contrib.auth.hashers.BCryptPasswordHasher",
+]
