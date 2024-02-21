@@ -75,3 +75,5 @@ STATIC_URL = 'static/'
 STATICFILES_DIRS = [
     BASE_DIR + "/src/static",
 ]
+
+AUTH_USER_MODEL = "src.User"
